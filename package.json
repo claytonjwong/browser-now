@@ -1,0 +1,23 @@
+{
+  "name": "browser-now",
+  "version": "1.0.0",
+  "description": "browser microsecond precision via global.performance (if possible), ie. new: performance.now() with fallback to old: Date.now() xor new Date().getTime()",
+  "main": "now.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claytonjwong/browser-now.git"
+  },
+  "keywords": [
+    "global.performance",
+    "performance.now"
+  ],
+  "author": "clayton wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claytonjwong/browser-now/issues"
+  },
+  "homepage": "https://github.com/claytonjwong/browser-now#readme"
+}
